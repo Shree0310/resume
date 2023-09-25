@@ -32,6 +32,12 @@ const Capg = ()=>{
                         application into their local machine in either excel or Json format. This
                         helped users to internally share their information in offline formats</li>
 
+                        <li> I was also involved 
+                        in another project which directly impacted our metrics: Worked on Azure Databricks 
+                        to Migrate data from a view table according to various time slots into the Neptune 
+                        Database on AWS. This helped in keeping the data base on AWS up to date.
+                        </li>
+
                     </ul>       
                 </p>
             </div>

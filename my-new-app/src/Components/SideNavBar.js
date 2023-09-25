@@ -1,10 +1,8 @@
-import Contacts from "./Contacts";
-import Education from "./Education";
 import Socials from "./Socials";
 
 const SideNavBar = ()=>{
     return (
-        <div className="flex flex-wrap px-3 py-2 shadow-lg rounded-3xl  bg-orange-200">
+        <div className="flex flex-wrap px-5 py-2 shadow-lg rounded-3xl  bg-orange-200 h-[950px]">
 
             <div>
                 
@@ -13,8 +11,8 @@ const SideNavBar = ()=>{
                     </div>
 
                 <div className="flex justify-between">
-                        <div>
-                            <img alt="my profile" className="object-contain px-6 py-4 h-60 w-60"
+                        <div className="">
+                            <img alt="my profile" className="object-contain px-10 py-4 h-60 w-60 "
                                 src="https://shree0310.github.io/profile_pic/WhatsApp%20Image%202023-05-23%20at%2010.31.50%20AM.jpeg"/>
                         </div> 
                        
@@ -111,14 +109,14 @@ const SideNavBar = ()=>{
                         </ul>
                         
                     </div>
-                    <div className="py-2">
+                    {/* <div className="py-2">
                         <h3 className="font-bold px-2 bg-orange-400">Interests</h3>
                         <ul class="marker:text-black list-disc pl-5 space-y-3 py-3 px-3 leading-4 text-justify">
                             <li>Design</li>
                             <li>Writing</li>
                             <li>Art</li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div>
                         {/* <Education/> */}
                     </div>

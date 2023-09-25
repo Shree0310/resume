@@ -9,9 +9,7 @@ const AboutMe = ()=>{
                     src="https://shree0310.github.io/profile_pic/WhatsApp%20Image%202023-05-23%20at%2010.31.50%20AM.jpeg"/> */}
 
                     <p className="px-16 py-6 font-bold text-xl leading-8">
-                        I'm a frontend developer proficient in React and Angular, blending the strengths of both frameworks.
-                        With a focus on user-centric design and clean coding, I transform ideas into exceptional web solutions. 
-                        Let's team up to elevate your digital presence and bring your vision to life.
+                        
                     </p>
 
                     <div className="flex  py-10 px-10">

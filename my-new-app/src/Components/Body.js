@@ -1,7 +1,5 @@
-import AboutMe from "./AboutMe";
 import Experiences from "./Experiences";
 import Header from "./Header";
-import Projects from "./Projects";
 import Quotation from "./Quotation";
 import SideNavBar from "./SideNavBar";
 
@@ -24,13 +22,14 @@ const Body = ()=>{
                     </div>
                 
                 
-                <div className="w-[480px] py-8">
-                    <SideNavBar/>
-                </div>
+                
 
                 <div>
                     <Quotation/>
                     
+                </div>
+                <div className="w-[500px] py-8">
+                    <SideNavBar/>
                 </div>
             
         

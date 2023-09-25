@@ -1,7 +1,7 @@
 const Projects = ()=>{
     return (
         <div>
-            <div className="h-[300px] mx-5 w-[360px] shadow-xl bg-blue-300 rounded-xl">
+            <div className="h-[300px] mx-2 w-[400px] shadow-xl bg-blue-300 rounded-xl">
                 <h1 className="text-center text-3xl py-2 font-bold shadow-md ">Projects</h1> 
                 <div className=" px-6 py-2">
                     <div>Swiggy- 

@@ -1,4 +1,6 @@
 import Contacts from "./Contacts";
+import { Link  } from "react-router-dom";
+
 
 const Header = ()=>{
     return (
@@ -12,9 +14,21 @@ const Header = ()=>{
                 <Contacts/>
            </div>
 
-
-
-            <h1 className="text-2xl px-10 font-bold">Home</h1>
+        <div className="flex justify-end">
+            <h1 className="text-2xl px-6 font-bold">
+               <Link to="/blogs">
+                Blogs
+               </Link>
+                   
+               </h1>
+            <h1 className="text-2xl px-6 font-bold">
+               <Link to="/">
+                    Home
+               </Link>
+                  
+                </h1>
+        </div>
+            
         </div>
     )
 }

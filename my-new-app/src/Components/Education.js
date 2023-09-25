@@ -1,7 +1,7 @@
 const Education = ()=>{
     return (       
-        <div className="py-2">
-            <div className="h-auto mx-5 w-[360px] bg-orange-200 rounded-xl">
+        <div className="mx-2">
+            <div className="h-auto  w-[400px] bg-orange-200 rounded-xl">
                 <h1 className="text-center text-3xl py-2 font-bold shadow-md ">Education</h1>
                     <div className="px-6 py-2">
 
