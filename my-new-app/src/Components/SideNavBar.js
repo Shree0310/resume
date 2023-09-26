@@ -2,12 +2,12 @@ import Socials from "./Socials";
 
 const SideNavBar = ()=>{
     return (
-        <div className="flex flex-wrap py-2 shadow-lg rounded-3xl  bg-orange-200 dark:bg-gray-500 h-[950px]">
+        <div className="flex flex-wrap shadow-lg rounded-3xl   bg-orange-200 dark:bg-gray-500 h-[950px] lg:h-[970px]">
 
             <div>
                 
                     <div>
-                        <h1 className="text-center text-3xl py-1 font-bold shadow-md dark:text-white  dark:shadow-gray-600 ">About Me</h1>
+                        <h1 className="text-center lg:text-3xl py-1 font-bold shadow-md dark:text-white  dark:shadow-gray-600 text-2xl ">About Me</h1>
                     </div>
 
                 <div className="flex justify-center">
@@ -18,7 +18,7 @@ const SideNavBar = ()=>{
                        
                 </div>    
 
-                <div>
+                <div className="flex justify-center">
                             <Socials/>
                         </div>
                     
@@ -28,7 +28,7 @@ const SideNavBar = ()=>{
                 <div className="px-5 ">
 
                     <div>
-                        <h3 className="font-bold px-2 bg-orange-400 dark:bg-gray-700 dark:text-white dark:shadow-balck">Personal</h3>
+                        <h3 className="font-bold px-2 bg-orange-400 dark:bg-gray-700 dark:text-white ">Personal</h3>
                     </div>
                     <div>   
                         <p className="py-3 px-3 leading-4 font-serif text-justify">

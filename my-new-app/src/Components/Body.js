@@ -28,7 +28,7 @@ const Body = ()=>{
                     <Quotation/>
                     
                 </div>
-                <div className="w-[520px] py-8 ">
+                <div className="w-[1000px] px-36 lg:w-[520px] lg:px-2 lg:py-8 ">
                     <SideNavBar/>
                 </div>
             

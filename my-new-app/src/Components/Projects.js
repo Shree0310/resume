@@ -1,12 +1,12 @@
 const Projects = ()=>{
     return (
         <div>
-            <div className="h-[300px] mx-2 w-[300px] shadow-xl bg-blue-300 dark:bg-gray-700 rounded-xl">
-                <h1 className="text-center text-3xl py-2 font-bold shadow-md dark:text-white  dark:shadow-gray-600 sm:text-lg ">Projects</h1> 
+            <div className="h-[300px] mx-2 w-[300px] lg:w-[340px] shadow-xl bg-blue-300 dark:bg-gray-700 rounded-xl">
+                <h1 className="text-center lg:text-3xl py-2 font-bold shadow-md dark:text-white  dark:shadow-gray-600 text-2xl ">Projects</h1> 
                 <div className=" px-6 py-4">
                     <ul className="list-decimal px-6 sm:text-sm">
                     <li className="dark:text-gray-300 py-2 ">One Click Food - 
-                        <span className="font-bold dark:text-black">React App</span>
+                        <span className="font-bold dark:text-white">React App</span>
                         <div className="flex font-thin">
                             <ul className="py-1">
                                 <li>Date: December, 2022</li>
@@ -16,7 +16,7 @@ const Projects = ()=>{
                         
                     </li>
                     <li className="dark:text-gray-300">Graphs - 
-                        <span className="font-bold dark:text-black">Angular Application</span>
+                        <span className="font-bold dark:text-white">Angular Application</span>
                         <div className="font-thin">
                             <ul>
                                 <li>Date: August 2023</li>
