@@ -9,7 +9,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="overflow-auto">
-      <div className="bg-blue-950">
+      <div className="bg-blue-950 dark:bg-gray-800">
         <Body/>
       </div>
 

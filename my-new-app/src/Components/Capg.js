@@ -2,11 +2,11 @@ const Capg = ()=>{
     return (
         <div className="transition ease-in-out delay-100
         hover:-translate-y-1 hover:scale-95 cursor-pointer 
-        rounded-3xl h-auto shadow-xl bg-blue-300 py-8 px-2">
+        rounded-3xl h-auto shadow-xl bg-blue-300 dark:bg-gray-700  dark:shadow-black py-8 px-2">
             
-            <h1 className="py-1 text-left px-3 text-xl font-bold">Capgemini India</h1>
+            <h1 className="py-1 text-left px-3 text-xl font-bold dark:text-white">Capgemini India</h1>
 
-            <h2 className="text-md font-medium px-3 py-1">Associate Consultant</h2>
+            <h2 className="text-md font-medium px-3 py-1 dark:text-white">Associate Consultant</h2>
 
             <div className="flex px-3 text-gray-700">
                 
@@ -21,8 +21,8 @@ const Capg = ()=>{
 
             
             <div className="">
-                <p className="px-3 py-1 leading-6 font-bold text-md text-justify">
-                    <ul className="marker:text-black list-disc pl-5 space-y-3 ">
+                <p className="px-3 py-1 leading-6 font-bold  dark:text-gray-400 text-md text-justify">
+                    <ul className="marker:text-black list-disc pl-5 space-y-3">
 
                         <li> Developed features for an application Relationship Manager that is
                         used to visualise various relationships between the resources.</li>

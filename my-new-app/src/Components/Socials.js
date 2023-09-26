@@ -4,7 +4,7 @@ const Socials = ()=>{
                         
         {/* Twitter */}
         <div className="px-6">
-            <div className="bg-blue-400 hover:shadow-2xl w-10 h-10 rounded-full px-2 py-2">
+            <div className="bg-blue-400 dark:bg-gray-400 hover:shadow-2xl w-10 h-10 rounded-full px-2 py-2">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -19,7 +19,7 @@ const Socials = ()=>{
 
         {/* Instagram */}
         <div className="px-6">
-            <div className=" bg-blue-400 shadow-lg w-10 h-10 rounded-full px-2 py-2">
+            <div className=" bg-blue-400 dark:bg-gray-400 shadow-lg w-10 h-10 rounded-full px-2 py-2">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -33,7 +33,7 @@ const Socials = ()=>{
 
         {/* LinkedIn */}
         <div className="px-6">
-            <div className=" bg-blue-400 shadow-lg w-10 h-10 cursor-pointer rounded-full px-2 py-2">
+            <div className=" bg-blue-400 dark:bg-gray-400 shadow-lg w-10 h-10 cursor-pointer rounded-full px-2 py-2">
                 <svg
                     
                     xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ const Socials = ()=>{
 
         {/* Github */}
         <div className="px-6">
-            <div className=" bg-blue-400 shadow-lg w-10 h-10 cursor-pointer rounded-full px-2 py-2">
+            <div className=" bg-blue-400 dark:bg-gray-400 shadow-lg w-10 h-10 cursor-pointer rounded-full px-2 py-2">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"

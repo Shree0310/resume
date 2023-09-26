@@ -2,11 +2,11 @@ const Epam =()=>{
     return (
         <div className="transition ease-in-out 
         delay-100 hover:-translate-y-1 hover:scale-95 cursor-pointer 
-         h-auto rounded-3xl shadow-lg bg-blue-300 py-8 px-2">
+         h-auto rounded-3xl shadow-lg bg-blue-300 dark:bg-gray-700  dark:shadow-black py-8 px-2">
 
-            <h1 className="text-left px-3 text-xl font-bold">EPAM Systems</h1>
+            <h1 className="text-left px-3 text-xl font-bold dark:text-white">EPAM Systems</h1>
 
-            <h2 className="text-md font-medium px-3 py-1">Frontend Developer</h2>
+            <h2 className="text-md font-medium px-3 py-1 dark:text-white">Frontend Developer</h2>
 
             <div className="flex px-3 text-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -17,7 +17,7 @@ const Epam =()=>{
                 </h3>
             </div>
 
-            <p className="px-3 py-1 leading-6 font-bold text-md text-justify ">
+            <p className="px-3 py-1 leading-6 font-bold dark:text-gray-400 text-md text-justify ">
                 <ul class="marker:text-black list-disc pl-5 space-y-3">
                     <li>Developed History tab that enabled users to see history of the
                         changes made to any resource specifying what was added or

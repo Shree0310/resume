@@ -13,7 +13,7 @@ const Body = ()=>{
             <div className="flex flex-wrap">
                     <div className="">
                 
-                        <div className="flex">
+                        <div className="flex sm:px-1">
                             <Experiences/>
                         </div>
                         {/* <div className="flex" >
@@ -28,7 +28,7 @@ const Body = ()=>{
                     <Quotation/>
                     
                 </div>
-                <div className="w-[500px] py-8">
+                <div className="w-[520px] py-8 ">
                     <SideNavBar/>
                 </div>
             

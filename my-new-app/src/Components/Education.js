@@ -1,11 +1,11 @@
 const Education = ()=>{
     return (       
         <div className="mx-2">
-            <div className="h-auto  w-[400px] bg-orange-200 rounded-xl">
-                <h1 className="text-center text-3xl py-2 font-bold shadow-md ">Education</h1>
+            <div className="h-auto  w-[300px] bg-orange-200 dark:bg-gray-300  rounded-xl">
+                <h1 className="text-center text-3xl py-2 font-bold shadow-md dark:text-black dark:shadow-gray-400">Education</h1>
                     <div className="px-6 py-2">
 
-                            <h1 className="py-2 font-bold font-md">Degree</h1>
+                            <h1 className="py-1 font-bold font-md">Degree</h1>
                         <div className="flex">
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">

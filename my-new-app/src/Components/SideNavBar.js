@@ -2,17 +2,17 @@ import Socials from "./Socials";
 
 const SideNavBar = ()=>{
     return (
-        <div className="flex flex-wrap px-5 py-2 shadow-lg rounded-3xl  bg-orange-200 h-[950px]">
+        <div className="flex flex-wrap py-2 shadow-lg rounded-3xl  bg-orange-200 dark:bg-gray-500 h-[950px]">
 
             <div>
                 
                     <div>
-                        <h1 className="text-center text-3xl py-1 font-bold shadow-md">About Me</h1>
+                        <h1 className="text-center text-3xl py-1 font-bold shadow-md dark:text-white  dark:shadow-gray-600 ">About Me</h1>
                     </div>
 
-                <div className="flex justify-between">
+                <div className="flex justify-center">
                         <div className="">
-                            <img alt="my profile" className="object-contain px-10 py-4 h-60 w-60 "
+                            <img alt="my profile" className="rounded-full px-10 py-4 h-[250px] w-[280px] "
                                 src="https://shree0310.github.io/profile_pic/WhatsApp%20Image%202023-05-23%20at%2010.31.50%20AM.jpeg"/>
                         </div> 
                        
@@ -25,10 +25,10 @@ const SideNavBar = ()=>{
                
                 
                 
-                <div className="">
+                <div className="px-5 ">
 
                     <div>
-                        <h3 className="font-bold px-2 bg-orange-400">Personal</h3>
+                        <h3 className="font-bold px-2 bg-orange-400 dark:bg-gray-700 dark:text-white dark:shadow-balck">Personal</h3>
                     </div>
                     <div>   
                         <p className="py-3 px-3 leading-4 font-serif text-justify">
@@ -38,7 +38,7 @@ const SideNavBar = ()=>{
                         </p>
                     </div>                      
                     <div>
-                        <h3 className="font-bold px-2 bg-orange-400">Certifications</h3>
+                        <h3 className="font-bold px-2 bg-orange-400 dark:bg-gray-700 dark:text-white">Certifications</h3>
                     </div>
                     <div>
                         <p className="py-3 px-3 leading-4 text-justify">Microsoft Azure Fundamentals Certified </p>
@@ -46,7 +46,7 @@ const SideNavBar = ()=>{
                     
                     <div>
                         <div>
-                            <h3 className="font-bold px-2 bg-orange-400">Skills</h3>
+                            <h3 className="font-bold px-2 bg-orange-400 dark:bg-gray-700 dark:text-white">Skills</h3>
                         </div>
                         
                         <ul className="font-bold">
@@ -55,7 +55,7 @@ const SideNavBar = ()=>{
                                     Angular 13
                                     <div className="px-8 py-1">
                                         <div className="mb-6 h-5 w-60 bg-neutral-200">
-                                        <div className="h-5 bg-blue-500 w-40"></div>
+                                        <div className="h-5 bg-blue-500 dark:bg-black w-40"></div>
                                         </div>
                                     </div>
                                 </li>
@@ -67,7 +67,7 @@ const SideNavBar = ()=>{
                                 React
                                 <div className="px-[70px] py-1">
                                 <div className="mb-6 h-5 w-60 bg-neutral-200">
-                                    <div className="h-5 bg-blue-500 w-36"></div>
+                                    <div className="h-5 bg-blue-500 dark:bg-black w-36"></div>
                                     </div>
                                 </div>                                  
                             </li>
@@ -78,7 +78,7 @@ const SideNavBar = ()=>{
                                 Javascript
                                 <div className="px-9 py-2">
                                 <div className="mb-6 h-5 w-60 bg-neutral-200">
-                                    <div className="h-5 bg-blue-500 w-20"></div>
+                                    <div className="h-5 bg-blue-500 dark:bg-black w-20"></div>
                                     </div>
                                 </div>
                                 
@@ -90,7 +90,7 @@ const SideNavBar = ()=>{
                                 Html
                                 <div className="px-20 py-1">
                                 <div className="mb-6 h-5 w-60 bg-neutral-200">
-                                    <div className="h-5 bg-blue-500 w-32"></div>
+                                    <div className="h-5 bg-blue-500 dark:bg-black w-32"></div>
                                     </div>
                                 </div>    
                             </li>
@@ -101,7 +101,7 @@ const SideNavBar = ()=>{
                             Tailwind CSS
                             <div className="px-6 py-1">
                             <div className="mb-6 h-5 w-60 bg-neutral-200">
-                                    <div className="h-5 bg-blue-500 w-16"></div>
+                                    <div className="h-5 bg-blue-500 dark:bg-black w-16"></div>
                                     </div>
                             </div>
                             </li>
