@@ -2,6 +2,8 @@ import Experiences from "./Experiences";
 import Header from "./Header";
 import Quotation from "./Quotation";
 import SideNavBar from "./SideNavBar";
+import MailchimpForm from "./MailchimpForm";
+import MailChimp from "./MailChimp";
 
 
 const Body = ()=>{
@@ -34,6 +36,9 @@ const Body = ()=>{
             
         
         
+            </div>
+            <div>
+                <MailChimp/>
             </div>
     
         </div>
